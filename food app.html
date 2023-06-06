@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Food App</title>
+    <style>
+      header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #494949;
+}
+
+header li {
+  float: left;
+}
+
+ header li a {
+  display: block;
+  color: rgb(252, 252, 252);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+header li a:hover {
+  background-color: #111;
+}
+      .text-content a{
+        text-decoration:none;
+        color:rgb(5, 5, 5);
+      }
+      .images{
+        width:50%;
+        margin:0 auto;
+      }
+      .labels{
+        margin-left:240px;
+        margin-bottom:40px;
+      }
+      .fooditem{
+        width:500px;
+        height:500px;
+      }
+    </style>
+  </head>
+  <body style="padding:0px;margin:0px;background-color:rgb(203, 204, 170);">
+    <header>
+      <ul>
+        <li><a href="#">Index</a></li>
+        <li><a href="#">Food</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </header>
+    <div class="main">
+      <div class="text-content">
+        <h2>Top 5 favourite foods</h2>
+        <ol>
+          <li><a href="#dosa">dosa</a></li>
+          <li><a href="#kabab">kabab</a></li>
+          <li><a href="#noodles">noodles</a></li>
+          <li><a href="#idli">idli</a></li>
+          <li><a href="#french fries">french fries</a></li>
+        </ol>
+      </div> 
+      <div class="images">
+        <div id="dosa"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYVZVI1VN5ykMz-CjqDvPvYYZ7yqDge6CqzqcZbjKX1A&usqp=CAU&ec=48600112"></div>
+
+        <p class="labels">dosa</p>
+        <div id="kabab"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4biyTtwU3-uUs32liqQvBx_voi9Ni2zv3OFfjkjuaSQ&usqp=CAU&ec=48600112"/></div>
+        <p class="labels">kabab</p>
+        <div id="noodles"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT55r6W-zDv9ER-EqEI7PZECfHZvPt2OeTbRr3Z0Y_1rw&usqp=CAU&ec=48600112"/></div>
+        <p class="labels">noodles</p>
+        <div id="idli"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6L5qXM7nQjDcdYP6a4RD1yOWsQ2f2dHJFXUzEpExHwA&usqp=CAU&ec=48600112"/></div>
+        <p class="labels">idli</p>
+        <div id="french fries"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFJTQZsD9aWvtLtW1Xap96Ia9KgFSf62IyQoRyVErrWA&usqp=CAU&ec=48600112"/></div>
+        <p class="labels">french fries</p>
+      </div>
+    </div>
+  </body>
+</html>
